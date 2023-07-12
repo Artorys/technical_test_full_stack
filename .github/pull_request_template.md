@@ -1,11 +1,11 @@
 ## Jira Task
-- [TTFS-5](https://memebattle.atlassian.net/browse/TTFS-5?)
+- <!-- Tasks of Jira site>
 
 ### Description
 <!--- Description about what have been done on this merge request, could include the objective of the jira ticket or some more technical detail of the merge requests (example: i had to do X thing on our redux store because of Y, i added a new utility function that makes Z, i choose to use X design pattern because of W) that will help who is reviewing to have a better understand about what you have done. -->
 
 ### Checklist
-- [ ] Create initial config for running the api
+- [ ] <!-- Checklist for mark your changes -->
 
 
 ### Attachments

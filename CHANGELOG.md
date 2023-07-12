@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- 
+- Up the api with the minimum necessary for use [TTFS-5](https://guilhermetelesdev.atlassian.net/browse/TTFS-5).
 
 ### Fixed
 

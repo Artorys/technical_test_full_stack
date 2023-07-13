@@ -5,6 +5,9 @@ services:
         build:
             context: "../../front-end/app/"
             dockerfile: Dockerfile
+        ports:
+            - 8080:8080
+
     back-end_api:
         env_file:
             - .env
@@ -18,7 +21,6 @@ services:
             - 'host.docker.internal:host-gateway'
         ports:
             - '${APP_PORT:-80}:80'
-            - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
         environment:
             WWWUSER: '${WWWUSER}'
             LARAVEL_SAIL: 1

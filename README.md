@@ -4,7 +4,8 @@
 
 Make sure you have the following prerequisites installed on your system:
 
-- NODE
+- [NODE](https://nodejs.org/en)
+- [DOCKER DESKTOP](https://docs.docker.com/compose/install/)
 
 ## Installation
 
@@ -16,9 +17,12 @@ Follow the steps below to install the project:
 
 To run the project, follow the steps below:
 
-1. Run the command: ` `.
+1. In the root directory, run the follow commands:
+```
+cd back-end/api/
+```
+```
+docker compose up 
+```
 
-## Contributing
-See back end [contributing guidelines](back-end/.github/CONTRIBUTING.md).
-See front end [contributing guidelines](front-end/.github/CONTRIBUTING.md).
 

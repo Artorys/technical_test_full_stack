@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Up the api with the minimum necessary for use [TTFS-5](https://guilhermetelesdev.atlassian.net/browse/TTFS-5).
 
+- Up the app with the minimum necessary for use [TTFS-6]("https://guilhermetelesdev.atlassian.net/browse/TTFS-6")
+
 ### Fixed
 
 - 

@@ -1,4 +1,4 @@
-# technical_test_full_stack PHP and VueJS
+# technical_test_full_stack laravel and VueJS
 
 ## Prerequisites
 

@@ -1,8 +1,15 @@
 version: '3'
 services:
-    laravel.test:
+
+    front-end_app:
         build:
-            context: ./back-end/api/vendor/laravel/sail/runtimes/8.2
+            context: "../../front-end/app/"
+            dockerfile: Dockerfile
+    back-end_api:
+        env_file:
+            - .env
+        build:
+            context: ./vendor/laravel/sail/runtimes/8.2
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'
@@ -26,6 +33,8 @@ services:
             - pgsql
     pgsql:
         image: 'postgres:15'
+        env_file:
+            - .env
         ports:
             - '${FORWARD_DB_PORT:-5433}:5432'
         environment:

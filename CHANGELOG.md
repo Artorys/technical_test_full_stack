@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Up the app with the minimum necessary for use [TTFS-6](https://guilhermetelesdev.atlassian.net/browse/TTFS-6)
 
-- Add version 1.0.0 of diagram  [TTFS-4](https://guilhermetelesdev.atlassian.net/browse/TTFS-4)
+- Add version 1.0.0 of diagram [TTFS-4](https://guilhermetelesdev.atlassian.net/browse/TTFS-4)
 
 ### Fixed
 

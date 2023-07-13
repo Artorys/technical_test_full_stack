@@ -5,6 +5,9 @@ services:
         build:
             context: "../../front-end/app/"
             dockerfile: Dockerfile
+        ports:
+            - 8080:8080
+
     back-end_api:
         env_file:
             - .env

@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add version 1.0.0 of diagram [TTFS-4](https://guilhermetelesdev.atlassian.net/browse/TTFS-4)
 
+- Add CRUD back end [TTFS-8](https://guilhermetelesdev.atlassian.net/browse/TTFS-8)
+
 ### Fixed
 
 - 

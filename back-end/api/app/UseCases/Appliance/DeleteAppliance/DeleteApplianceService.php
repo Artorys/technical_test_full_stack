@@ -1,16 +1,18 @@
 <?php 
 
-namespace App\Service\Appliance;
+namespace App\UseCases\Appliance\DeleteAppliance;
 
-use App\Implementations\IService;
+use App\Models\Appliance;
+use App\Repositories\Appliance\ApplianceRepository;
+use App\UseCases\IService;
 
-class DeleteApplianceController implements IService{
+class DeleteApplianceService implements IService{
 
-    private $repository;
+    private ApplianceRepository $repository;
     function __construct($repository){
         $this->repository = $repository;
     }
-    public function execute(){
-        
+    public function execute($data = [],$id="") : int{
+        return $this->repository->delete($id);
     }
 }

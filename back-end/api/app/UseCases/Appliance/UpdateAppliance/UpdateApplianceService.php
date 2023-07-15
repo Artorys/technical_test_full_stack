@@ -1,16 +1,18 @@
 <?php 
 
-namespace App\Service\Appliance;
+namespace App\UseCases\Appliance\UpdateAppliance;
 
-use App\Implementations\IService;
+use App\Models\Appliance;
+use App\Repositories\Appliance\ApplianceRepository;
+use App\UseCases\IService;
 
 class UpdateApplianceService implements IService{
 
-    private $repository;
+    private ApplianceRepository $repository;
     function __construct($repository){
         $this->repository = $repository;
     }
-    public function execute(){
-        
+    public function execute($data=[],$id=""): Appliance|null{
+        return $this->repository->update($data, $id);
     }
 }

@@ -23,4 +23,6 @@ class Appliance extends Model
         'voltage' => 'string',
         'brand' => 'string'
     ];
+
+    public $timestamps = false;
 }

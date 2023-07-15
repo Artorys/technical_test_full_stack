@@ -1,16 +1,18 @@
 <?php 
 
-namespace App\Service\Appliance;
+namespace App\UseCases\Appliance\ReadAllAppliance;
 
-use App\Implementations\IService;
+use App\Repositories\Appliance\ApplianceRepository;
+use App\UseCases\IService;
+use Illuminate\Database\Eloquent\Collection;
 
 class ReadAllApplianceService implements IService{
 
-    private $repository;
+    private ApplianceRepository $repository;
     function __construct($repository){
         $this->repository = $repository;
     }
-    public function execute(){
-        
+    public function execute($data=[],$id="") : Collection{
+        return $this->repository->readAll();
     }
 }

@@ -1,16 +1,15 @@
 <?php
 
-namespace App\Error;
+namespace App\Errors;
 use Exception;
 
 class ErrorHTTP extends Exception
 {
 
     public int $status;
-    public string $message;
-    function __construct(int $status,string $message){
+    public $message;
+    function __construct(int $status,$message){
         $this->status = $status;
-        $this->message = $message;
-        parent::__construct($message, $status);
+        $this->message = ["message"=> $message];
     }
-}
+} 

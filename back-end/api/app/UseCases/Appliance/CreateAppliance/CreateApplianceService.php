@@ -1,7 +1,9 @@
 <?php 
-namespace App\Service\Appliance;
-use App\Implementations\IService;
-use App\Repositories\ApplianceRepository;
+namespace App\UseCases\Appliance\CreateAppliance;
+
+use App\Models\Appliance;
+use App\UseCases\IService;
+use App\Repositories\Appliance\ApplianceRepository;
 
 
 class CreateApplianceService implements IService{
@@ -10,7 +12,7 @@ class CreateApplianceService implements IService{
     function __construct(ApplianceRepository $repository){
         $this->repository = $repository;
     }
-    public function execute($data){
+    public function execute($data = [],$id=""): Appliance{
         return $this->repository->create($data);
     }
 }

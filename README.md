@@ -252,12 +252,12 @@ Make sure you have the following prerequisites installed on your system:
 
     - #### Click on let's go and access the home page.
     - #### On the home page you can create, update and delete an appliance.
-     ![img](https://live.staticflickr.com/65535/53051423471_6818fc1bd0_b.jpg)
+     ![img](https://live.staticflickr.com/65535/53051654484_6d00946642_b.jpg)
 
     - #### we don't have any appliances to edit or delete, let's create so we can interact.
     - #### click register appliances to create your appliance and display a form.
-     ![img](https://live.staticflickr.com/65535/53050837037_6a167bb90c_b.jpg)
+     ![img](https://live.staticflickr.com/65535/53051465776_66f13e88a9_b.jpg)
 
     - #### Once created, you can update and delete it, have fun!
-     ![img](https://live.staticflickr.com/65535/53050837027_cd4d60b89e_b.jpg)
+     ![img](https://live.staticflickr.com/65535/53051852740_a2f37be3c0_b.jpg)
     

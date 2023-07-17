@@ -17,9 +17,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add CRUD back end [TTFS-8](https://guilhermetelesdev.atlassian.net/browse/TTFS-8)
 
+- Add basic interface form front end [TTFS-9](https://guilhermetelesdev.atlassian.net/browse/TTFS-9)
+
 ### Fixed
 
-- 
+- change structure of CRUD back end [TTFS-8](https://guilhermetelesdev.atlassian.net/browse/TTFS-8)
 
 ### Removed
 

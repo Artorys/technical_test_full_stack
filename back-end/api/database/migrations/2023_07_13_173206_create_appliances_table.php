@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('appliances', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('description');
+            $table->string('description')->nullable();
             $table->string('voltage');
             $table->string('brand');
         });

@@ -19,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add basic interface form front end [TTFS-9](https://guilhermetelesdev.atlassian.net/browse/TTFS-9)
 
+- Documentation done [TTFS-7](https://guilhermetelesdev.atlassian.net/browse/TTFS-7)
+
 ### Fixed
 
 - change structure of CRUD back end [TTFS-8](https://guilhermetelesdev.atlassian.net/browse/TTFS-8)

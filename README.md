@@ -248,25 +248,16 @@ Make sure you have the following prerequisites installed on your system:
     - ### The front end was designed to be a minimalist interface that uses CRUD to manage your appliances.
     - ### how is it used?
     - #### By accessing the base link of the front end application you will be on the lading page:
-    <div style="display:flex;justify-content:center;">
-     <img width="720" height='480' src="https://live.staticflickr.com/65535/53051423461_c0cb4a00d7_b.jpg">
-    </div>
+     ![img](https://live.staticflickr.com/65535/53051423461_c0cb4a00d7_b.jpg)
 
     - #### Click on let's go and access the home page.
     - #### On the home page you can create, update and delete an appliance.
-    <div style="display:flex;justify-content:center;">
-     <img width="720" height='480' src="https://live.staticflickr.com/65535/53051423471_6818fc1bd0_b.jpg">
-    </div>
+     ![img](https://live.staticflickr.com/65535/53051423471_6818fc1bd0_b.jpg)
 
     - #### we don't have any appliances to edit or delete, let's create so we can interact.
     - #### click register appliances to create your appliance and display a form.
-     <div style="display:flex;justify-content:center;">
-     <img width="720" height='480' src="https://live.staticflickr.com/65535/53050837037_6a167bb90c_b.jpg">
-    </div>
+     ![img](https://live.staticflickr.com/65535/53050837037_6a167bb90c_b.jpg)
 
     - #### Once created, you can update and delete it, have fun!
-
-    <div style="display:flex;justify-content:center;">
-     <img width="720" height='480' src="https://live.staticflickr.com/65535/53050837027_cd4d60b89e_b.jpg">
-    </div>
+     ![img](https://live.staticflickr.com/65535/53050837027_cd4d60b89e_b.jpg)
     

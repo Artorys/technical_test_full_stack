@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApplianceController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,4 +18,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-
+Route::prefix("appliance")->group(function (){
+    Route::get("/",[ApplianceController::class,"listAll"]);
+    Route::get("/{appliance}",[ApplianceController::class,"find"]);
+    Route::post("/",[ApplianceController::class,"create"]);
+    Route::put("/{appliance}",[ApplianceController::class,"update"]);
+    Route::delete("/{appliance}",[ApplianceController::class,"delete"]);
+});

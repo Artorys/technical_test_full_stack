@@ -31,5 +31,5 @@ Make sure you have the following prerequisites installed on your system:
         ```
     - #### 1.4 Run and apply the migrations for postgres database.
         ```
-        docker exec -it api-back-end_api-1 php artisan migrate
+        vendor/bin/sail php artisan migrate:fresh
         ```

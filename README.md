@@ -248,7 +248,7 @@ Make sure you have the following prerequisites installed on your system:
     - ### The front end was designed to be a minimalist interface that uses CRUD to manage your appliances.
     - ### how is it used?
     - #### By accessing the base link of the front end application you will be on the lading page:
-     ![img](https://live.staticflickr.com/65535/53051423461_c0cb4a00d7_b.jpg)
+     ![img](https://live.staticflickr.com/65535/53051653219_00a45ba4b0_b.jpg)
 
     - #### Click on let's go and access the home page.
     - #### On the home page you can create, update and delete an appliance.

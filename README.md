@@ -58,7 +58,7 @@ Make sure you have the following prerequisites installed on your system:
                     api-laravel.test-1   | 
                     api-laravel.test-1   | 2023-07-17 03:51:42,663 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
                 ```
-    - #### 1.5 - During the execution of your containers run and apply the migrations for postgres database.
+    - #### 1.5 - Create another terminal and enter again in back-end/api/, during the execution of your containers run and apply the migrations for postgres database.
         ```
         vendor/bin/sail php artisan migrate:fresh
         ```

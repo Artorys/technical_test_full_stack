@@ -21,7 +21,7 @@ Make sure you have the following prerequisites installed on your system:
         ```
         cd back-end/api/
         ```
-    - #### 1.2 Create the .env file, copy and paste all content of the .env.example in the .ebv and set your environments variables to connect to database in .env file
+    - #### 1.2 Create the .env file, copy and paste all content of the .env.example in the .env, set your environments variables to connect to database in .env file
         ```
         DB_CONNECTION=pgsql
         DB_HOST=pgsql
